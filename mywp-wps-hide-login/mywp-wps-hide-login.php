@@ -3,7 +3,7 @@
 Plugin Name: My WP Add-on WPS Hide Login
 Plugin URI: https://mywpcustomize.com/add_ons/my-wp-add-on-wps-hide-login/‎
 Description: My WP Add-on WPS Hide Login is apply to login general customize for My WP.
-Version: 1.0
+Version: 1.0.1
 Author: gqevu6bsiz
 Author URI: http://gqevu6bsiz.chicappa.jp/
 Text Domain: mywp-wps-hide-login
@@ -51,7 +51,7 @@ final class MywpWPSHideLogin {
   private static function define_constants() {
 
     define( 'MYWP_WPS_HIDE_LOGIN_NAME' , 'My WP Add-On WPS Hide Login' );
-    define( 'MYWP_WPS_HIDE_LOGIN_VERSION' , '1.0' );
+    define( 'MYWP_WPS_HIDE_LOGIN_VERSION' , '1.0.1' );
     define( 'MYWP_WPS_HIDE_LOGIN_PLUGIN_FILE' , __FILE__ );
     define( 'MYWP_WPS_HIDE_LOGIN_PLUGIN_BASENAME' , plugin_basename( MYWP_WPS_HIDE_LOGIN_PLUGIN_FILE ) );
     define( 'MYWP_WPS_HIDE_LOGIN_PLUGIN_DIRNAME' , dirname( MYWP_WPS_HIDE_LOGIN_PLUGIN_BASENAME ) );
